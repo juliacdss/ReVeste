@@ -27,6 +27,8 @@ O sistema escolhido para o projeto é um Ponto de Vendas (PDV) voltado para um b
 
 A escolha desse modelo se deu por ser uma ideia ligada ao cotidiano, já que a compra e venda de roupas usadas é comum atualmente, além de ser um tema interessante e fácil de compreender. Também foi escolhido por possibilitar o desenvolvimento de um sistema funcional e prático, adequado ao nível do curso.
 
+DOCUMENTAÇÃO ACABA AQUI
+
 # 2. Situação Problema
 
 *(Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.)*
