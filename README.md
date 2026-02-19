@@ -21,15 +21,12 @@ Links do projeto:
 -   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
 
 # 1. Desenvolvimento
-*(Escolha um dos modelos de sistemas para desenvolver o projeto. Apague as informações desnecessárias depois.)*
--   As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
--   Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
 
 **1.1 Modelo do Sistema**
 
-**O sistema escolhido para o projeto é um Ponto de Vendas (PDV) voltado para um brechó digital chamado ReVeste. O sistema permitirá o cadastro de produtos (roupas), o registro de vendas e o controle das peças disponíveis e já vendidas.**
+O sistema escolhido para o projeto é um Ponto de Vendas (PDV) voltado para um brechó digital chamado ReVeste. O sistema permitirá o cadastro de produtos (roupas), o registro de vendas e o controle das peças disponíveis e já vendidas.
 
-**A escolha desse modelo se deu por ser uma ideia ligada ao cotidiano, já que a compra e venda de roupas usadas é comum atualmente, além de ser um tema interessante e fácil de compreender. Também foi escolhido por possibilitar o desenvolvimento de um sistema funcional e prático, adequado ao nível do curso.**
+A escolha desse modelo se deu por ser uma ideia ligada ao cotidiano, já que a compra e venda de roupas usadas é comum atualmente, além de ser um tema interessante e fácil de compreender. Também foi escolhido por possibilitar o desenvolvimento de um sistema funcional e prático, adequado ao nível do curso.
 
 # 2. Situação Problema
 
