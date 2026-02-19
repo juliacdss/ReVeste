@@ -1,5 +1,5 @@
 # Projeto Integrador - Modelo
-*(Coloque aqui o nome do seu projeto.)*
+*ReVeste*
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 *(Coloque aqui uma breve descrição do seu projeto.)*
@@ -9,8 +9,10 @@ Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em D
 Professor: [Marco André Mendes](github.com/marcoandre)
 
 Equipe:
-- [Aluno1](github.com/aluno1)
-- [Aluno2](github.com/aluno2)
+- [Amanda Eduarda Andrade dos Santos](github.com/aluno2)
+- [Anna Luiza Carvalho Araujo](github.com/aluno1)
+- [Julia Costa da Silva](github.com/aluno2)
+- [Thayná de Oliveira Becker](github.com/aluno2)
 
 Links do projeto:
 (*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
