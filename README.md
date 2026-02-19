@@ -1,7 +1,6 @@
 # Projeto Integrador - Modelo
 *ReVeste*
 
-Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 *ReVeste é um sistema web de brechó digital que permite os usuários anunciar e vender roupas de forma simples e organizada. A plataforma incentiva a moda sustentável e o reaproveitamento de peças, oferecendo um ambiente prático e intuitivo para compra e venda.*
 
 **IMPORTANTE**: [**Cadastre seu projeto nesta planilha**](https://docs.google.com/spreadsheets/d/1bSb1-S9qOf46fNH8quyoFpcjcTuBMj_EdSPchOuFULY/edit?usp=sharing).
