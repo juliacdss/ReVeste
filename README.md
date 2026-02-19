@@ -9,10 +9,10 @@ Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em D
 Professor: [Marco André Mendes](github.com/marcoandre)
 
 Equipe:
-- [Amanda Eduarda Andrade dos Santos](github.com/aluno2)
-- [Anna Luiza Carvalho Araujo](github.com/aluno1)
-- [Julia Costa da Silva](github.com/aluno2)
-- [Thayná de Oliveira Becker](github.com/aluno2)
+- [Amanda Eduarda Andrade dos Santos](https://github.com/amandastss)
+- [Anna Luiza Carvalho Araujo](https://github.com/annaaraujoifc).
+- [Julia Costa da Silva](https://github.com/juliacdss).
+- [Thayná de Oliveira Becker](https://github.com/thaynabecker)
 
 Links do projeto:
 (*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
