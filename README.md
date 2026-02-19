@@ -1,4 +1,4 @@
-# Projeto Integrador - Modelo
+# Projeto Integrador - ReVeste
 *ReVeste*
 
 *ReVeste é um sistema web de brechó digital que permite os usuários anunciar e vender roupas de forma simples e organizada. A plataforma incentiva a moda sustentável e o reaproveitamento de peças, oferecendo um ambiente prático e intuitivo para compra e venda.*
