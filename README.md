@@ -31,26 +31,16 @@ DOCUMENTAÇÃO ACABA AQUI
 
 # 2. Situação Problema
 
-*(Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.)*
-
 ![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
 
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
+-   **Introdução**: O ReVeste é um brechó digital que atua por meio de uma plataforma web, permitindo que usuários anunciem e vendam roupas de forma prática. A empresa é recente e foi criada com o objetivo de incentivar a moda sustentável, promovendo o reaproveitamento de peças de vestuário. Atualmente, o funcionamento do sistema depende de processos simples e pouco automatizados, contando com uma pequena equipe responsável por organizar os anúncios e acompanhar as vendas realizadas na plataforma.
+-   
+-   **Situação-problema**: No funcionamento atual do ReVeste, os usuários realizam o cadastro de suas peças manualmente, inserindo informações como nome do produto, descrição, preço e imagens. Essas informações ficam armazenadas de maneira básica, sem um padrão bem definido, o que pode gerar inconsistências nos dados e dificultar a organização dos anúncios dentro da plataforma.
+Após o cadastro, as roupas ficam disponíveis para visualização de outros usuários, que podem demonstrar interesse e realizar a compra. No entanto, o controle dessas vendas não é feito de forma automatizada. Quando uma peça é vendida, é necessário que alguém registre manualmente essa informação, o que nem sempre acontece de forma imediata ou correta.
+Como consequência, é comum que produtos já vendidos continuem aparecendo como disponíveis, causando confusão para os usuários e possíveis problemas nas negociações. Além disso, não existe um sistema eficiente para acompanhar o histórico de vendas, dificultando a análise do desempenho da plataforma e a tomada de decisões.
+Outro ponto relevante é que, com o aumento do número de usuários e de anúncios, o controle manual se torna cada vez mais complexo. A equipe encontra dificuldades para organizar quais peças ainda estão disponíveis, quais já foram vendidas e manter uma visão geral do funcionamento da plataforma. Isso impacta diretamente na eficiência do serviço e na experiência dos usuários.
 
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
-
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são propostas com empresas fictícias, sendo assim, você terá que tomar certas decisões sobre como a empresa funciona em relação às coisas que não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu Genival contratou mais funcionários, mas saber quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
-
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
-
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários, etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.
+-   **Conclusão**: Diante desse cenário, fica evidente a necessidade de um sistema de Ponto de Vendas (PDV) que automatize o controle de produtos e vendas. A implementação de um software permitiria o cadastro padronizado das peças, a atualização automática do status dos produtos após cada venda e o registro organizado das transações realizadas. Dessa forma, o ReVeste poderia melhorar sua gestão interna, reduzir erros operacionais e oferecer uma experiência mais confiável e eficiente para seus usuários.
 
 # 3. Descrição da proposta
 
