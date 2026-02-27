@@ -34,7 +34,7 @@ A escolha desse modelo se deu por ser uma ideia ligada ao cotidiano, já que a c
 -   **Introdução**: O ReVeste é um brechó digital que atua por meio de uma plataforma web, permitindo que usuários anunciem e vendam roupas de forma prática. A empresa é recente e foi criada com o objetivo de incentivar a moda sustentável, promovendo o reaproveitamento de peças de vestuário. Atualmente, o funcionamento do sistema depende de processos simples e pouco automatizados, contando com uma pequena equipe responsável por organizar os anúncios e acompanhar as vendas realizadas na plataforma.
    
 -   **Situação-problema**: No funcionamento atual do ReVeste, os usuários realizam o cadastro de suas peças manualmente, inserindo informações como nome do produto, descrição, preço e imagens. Essas informações ficam armazenadas de maneira básica, sem um padrão bem definido, o que pode gerar inconsistências nos dados e dificultar a organização dos anúncios dentro da plataforma.
--   
+   
 Após o cadastro, as roupas ficam disponíveis para visualização de outros usuários, que podem demonstrar interesse e realizar a compra. No entanto, o controle dessas vendas não é feito de forma automatizada. Quando uma peça é vendida, é necessário que alguém registre manualmente essa informação, o que nem sempre acontece de forma imediata ou correta.
 Como consequência, é comum que produtos já vendidos continuem aparecendo como disponíveis, causando confusão para os usuários e possíveis problemas nas negociações. Além disso, não existe um sistema eficiente para acompanhar o histórico de vendas, dificultando a análise do desempenho da plataforma e a tomada de decisões.
 
