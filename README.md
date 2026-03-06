@@ -44,18 +44,16 @@ Outro ponto relevante é que, com o aumento do número de usuários e de anúnci
 
 # 3. Descrição da proposta
 
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do desejado e permita sua continuidade.
+A proposta do sistema ReVeste é desenvolver um software para organizar e facilitar o funcionamento de um brechó digital, permitindo que usuários anunciem e vendam roupas de forma prática dentro da plataforma. O foco principal do sistema é possibilitar o cadastro de produtos, o registro de vendas e o controle automático das peças disponíveis e já vendidas.
 
-**Alguns pontos importantes a se destacar são:**
+No sistema, existirão dois níveis principais de usuários: os usuários da plataforma e os administradores. Os usuários poderão criar uma conta, cadastrar roupas para venda e visualizar as peças anunciadas por outras pessoas. Ao cadastrar um produto, o usuário deverá informar dados como nome da peça, descrição, preço e imagem. Essas informações ficarão disponíveis para visualização dentro da plataforma.
 
--   **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
--   **Os níveis de usuário do sistema**. Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos
-    diferentes, etc.
--   **O que poderá ser feito no software**.Apenas o principal, sem pensar em telas ou detalhes específicos, pois isso será feito em outro momento.
--   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre eles na descrição da proposta.
+Quando uma peça for vendida, o sistema registrará automaticamente essa venda e atualizará o status do produto, indicando que ele não está mais disponível. Isso evitará que itens já vendidos continuem aparecendo como disponíveis para outros usuários.
 
-Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
-precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
+Os administradores do sistema terão acesso a funções de gerenciamento da plataforma, podendo acompanhar os produtos cadastrados, visualizar vendas realizadas e manter a organização geral do sistema.
+
+Com a implementação do software, o ReVeste terá um processo mais organizado para o controle de anúncios e vendas, reduzindo erros no gerenciamento manual e proporcionando uma experiência mais eficiente para os usuários da plataforma.
+
 
 # 4. Modelagem de Dados
 
