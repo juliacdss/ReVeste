@@ -386,53 +386,66 @@ O diagrama de caso de uso é uma ferramenta de modelagem que descreve o comporta
 - Descrevem as interações entre os usuários e o sistema.
 
 
-**Estrutura do Diagrama (como ficará)**
-               +----------------------+
-               |      Sistema         |
-               |        ReVeste       |
-               +----------------------+
-
-**Usuário**
-  |---- Criar conta
-  |---- Fazer login
-  |---- Cadastrar produto
-  |---- Editar produto
-  |---- Excluir produto
-  |---- Visualizar produtos
-  |---- Comprar produto
-  |---- Visualizar status do produto
-  |---- Ver histórico de vendas
-
-**Administrador**
   |---- Fazer login
   |---- Gerenciar produtos
   |---- Visualizar usuários
   |---- Visualizar vendas
   |---- Gerar relatório de vendas
+  
+## 7. Diagrama de Caso de Uso – ReVeste
+
+**Estrutura do Diagrama (como ficará)**
+
+```
++----------------------+
+|       Sistema        |
+|       ReVeste        |
++----------------------+
+
+Usuário
+   |---- Criar conta
+   |---- Fazer login
+   |---- Cadastrar produto
+   |---- Editar produto
+   |---- Excluir produto
+   |---- Visualizar produtos
+   |---- Comprar produto
+   |---- Visualizar status do produto
+   |---- Ver histórico de vendas
+
+Administrador
+   |---- Fazer login
+   |---- Gerenciar produtos
+   |---- Visualizar usuários
+   |---- Visualizar vendas
+   |---- Gerar relatório de vendas
+```
 
 **Ideia visual do diagrama**
 
-          Usuário
-             |
-  -------------------------
-  |       ReVeste        |
-  -------------------------
-  | Criar conta          |
-  | Fazer login          |
-  | Cadastrar produto    |
-  | Comprar produto      |
-  | Visualizar produtos  |
-  | Ver histórico        |
-  -------------------------
+```
+           Usuário
+              |
+   -------------------------
+   |        ReVeste        |
+   -------------------------
+   | Criar conta           |
+   | Fazer login           |
+   | Cadastrar produto     |
+   | Comprar produto       |
+   | Visualizar produtos   |
+   | Ver histórico         |
+   -------------------------
 
-          Administrador
-               |
-       ----------------
-       | Gerenciar   |
-       | produtos    |
-       | vendas      |
-       | usuários    |
-       ----------------
+           Administrador
+                |
+        ----------------
+        | Gerenciar     |
+        | produtos      |
+        | vendas        |
+        | usuários      |
+        ----------------
+```
 
 ![Diagrama de Caso de Uso](img/dcu1.png "Diagrama de Caso de Uso")
 
