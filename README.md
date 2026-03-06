@@ -61,75 +61,38 @@ Com a implementação do software, o ReVeste terá um processo mais organizado p
 
 Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o diagrama de entidade-relacionamento (DER) e descreva as entidades e relacionamentos que farão parte do sistema.
 
-
-
 # 4. Regras de negócio
-(*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
 
-As **Regras de negócio** são orientações e restrições que ajudam a regular as operações de uma empresa. **Regras** foram criadas para **colaborar com o funcionamento**, seja da sociedade, de uma escola, de um jogo, etc. Não seria diferente nas organizações. Vamos abordar melhor sobre esse assunto. Entender o que são as regras de negócio, sua importância, como são aplicadas e
-automatizadas na gestão por processo.
+As regras de negócio definem como o sistema deve funcionar e quais condições precisam ser seguidas para que as operações aconteçam corretamente. Elas ajudam a organizar os processos da plataforma, garantindo que o cadastro de produtos, as vendas e o controle das peças sejam realizados de forma padronizada e segura dentro do sistema ReVeste.
 
-**4.1 O que são regras de negócio?**
+*4.6 Regras de Negócio do Sistema*
 
-Um negócio funciona por processos que, por sua vez, são formados por atividades relacionadas entre si.
+RN01 – Cadastro de Usuário:
+Para utilizar as funcionalidades do sistema, o usuário deve realizar um cadastro informando seus dados básicos, como nome, e-mail, senha, telefone e CPF.
 
-As funções das áreas de compras, estoque, logística, finanças, vendas e marketing, por exemplo, compõem um processo de fornecimento de um produto ao cliente.
+RN02 – Login no Sistema:
+O acesso ao sistema só poderá ser realizado por usuários que possuam cadastro e informem corretamente e-mail e senha.
 
-Dentro desses processos, existem regras que devem ser seguidas durante a execução das atividades, que ajudam a definir **COMO** as operações devem ser realizadas e gerenciadas, **POR QUEM**, **QUANDO**, **ONDE** e **POR QUÊ**.
+RN03 – Cadastro de Produto:
+Para anunciar uma peça de roupa no sistema, o usuário deve cadastrar o produto informando pelo menos nome da peça, descrição, preço, marca e estado da peça.
 
-Podemos dizer que as regras de negócio são **limites impostos às operações**, de forma que elas sigam corretamente em direção às políticas e aos objetivos da instituição.
+RN04 – Disponibilidade do Produto:
+Um produto só poderá ser exibido para compra se estiver com o status marcado como “disponível”.
 
-**4.2 Regras para a criação de regras de negócio**
+RN05 – Registro de Venda:
+Quando uma peça for vendida, o sistema deverá registrar automaticamente a venda e alterar o status do produto para “vendido”.
 
-De maneira geral, as regras de negócio devem:
-- Ser **simples**, isto é,  ter apenas uma função.
-- Ser **completas**, com início, meio e fim.
-- Ser possíveis de **mensurar** e **rastrear**.
-- Estar em consonância com a **legislação**.
-- Estar **atualizadas** e sempre **revisadas**.
-- Refletir a **política** e os **valores** da organização.
-- Ser **inteligíveis** para os colaboradores e envolvidos no processo.
+RN06 – Atualização de Status do Produto:
+Após o registro da venda, o produto não poderá mais ser exibido como disponível para outros usuários.
 
-**4.3 Por que ter regras de negócio?**
+RN07 – Visualização de Produtos:
+Todos os usuários poderão visualizar as roupas anunciadas na plataforma.
 
-- **Padronização de processos:** padronizam os processos e auxiliam a fluirem de forma mais eficiente e automatizada.
-- **Controle de processos:** auxiliam no controle de processos, pois falhas são identificadas e corrigidas mais rapidamente.
-- **Tomada de decisão:** auxiliam na tomada de decisão e no cumprimento de estratégias pré-estabelecidas.
+RN08 – Gerenciamento do Sistema:
+Administradores terão acesso a funções de gerenciamento, podendo visualizar todos os produtos cadastrados e acompanhar as vendas realizadas no sistema.
 
-**4.4 Exemplos de regras de negócio**
-
-- Em um controle de qualidade de granja, pode-se dizer que a cada 100 ovos impróprios para consumo, o lote será descartado.
-- Em um banco, clientes com faturamento mensal de mais de R$ 25 mil e CPF sem restrições, serão atendidos pelo gerente Premium pessoa física.
-- Para conclusão de licitações, devem ser feitos três orçamentos e o vencedor será sempre o de menor preço final.
-- Em um processo de seleção de RH, o candidato só pode ser aprovado se tiver mais de 5 anos de experiência na área, diploma de pós-graduação, espanhol fluente e pretensão salarial abaixo de R$ 8.000,00.
-- Em um processo de vendas, o vendedor só pode vender um produto se o cliente tiver mais de 18 anos, renda familiar acima de R$ 5.000,00 e não tiver restrições no CPF.
-- Em um processo de compras, o fornecedor só pode ser contratado se tiver nota fiscal, certificado de qualidade e preço abaixo de R$ 10,00 por unidade.
-- Em um processo de logística, o pedido só pode ser enviado se o cliente tiver mais de 18 anos, endereço de entrega no mesmo estado e não tiver restrições no CPF.
-
-**4.5 Como escrever regras de negócio?**
-
-- Número identificador.
-- Nome da regra.
-- Data de criação e data da última alteração para comparações e
-controle.
-- Nome dos Autores das versões.
-- Número da versão (1, 2 etc).
-- Dependências: insira o identificador das regras atreladas, às quais a regra em questão depende.
-- Uma descrição detalhada para compreensão da regra.
-
-**4.6 Exemplos de regras de negócio com formatação**
-
-- **RN01 – Criação Comanda:** Para iniciar um atendimento no balcão, é necessário primeiro abrir uma nova comanda.
-- **RN02 – Inserir Produtos Comanda:** Para inserir um produto na comanda, é necessário que o produto esteja cadastrado no sistema e que a quantia comprada seja acima de zero.
-- **RN03 – Cadastro de Leitores:** Os leitores precisam fazer o cadastro para realizar o empréstimo.
-- **RN04 – Realizar Empréstimo:** Para realizar o empréstimo, apenas leitores com cadastro e nenhuma multa em aberto.
-- **RN05 – Registro de Empréstimo:** O gerente deve possuir acesso aos registros de empréstimos.
-- **RN06 – Pagamento de Multa:** O leitor que passar de 15 dias com o livro deverá pagar a multa de um real por dia de atraso.
-- **RN07 – Impressão de Orçamento:** Com as informações do
-orçamento registradas, a atendente deve imprimir o orçamento e
-repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve solicitar a sua assinatura para aprovar a execução do serviço.
-- **RN08 – Abertura de OS:** Com o atendimento aprovado pelo cliente, a atendente deverá inserir os dados do cliente e do orçamento em um novo documento, para registros internos, realizando a abertura da OS.
-- **RN09 – Relatório de Fluxo de Caixa:** O relatório de fluxo de caixa será permitido somente para o administrador.
+RN09 – Integridade das Informações:
+O sistema não permitirá o cadastro de produtos com campos obrigatórios vazios, garantindo que as informações necessárias estejam sempre registradas.
 
 # 5. Requisitos funcionais
 (*Nessa parte a equipe deve descrever os requisitos funcionais que serão implementados no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
