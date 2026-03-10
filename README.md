@@ -312,5 +312,3 @@ Administrador
         | usuários      |
         ----------------
 ```
-
-![Diagrama de Caso de Uso](img/dcu1.png "Diagrama de Caso de Uso")
