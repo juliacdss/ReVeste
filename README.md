@@ -67,79 +67,79 @@ As regras de negócio definem como o sistema deve funcionar e quais condições 
 
 * Regras de Negócio do Sistema*
 
-RN01 – Cadastro de Usuário:
+**RN01 – Cadastro de Usuário:**
 Para utilizar as funcionalidades do sistema, o usuário deve realizar um cadastro informando seus dados básicos, como nome, e-mail, senha, telefone e CPF.
 
-RN02 – Login no Sistema:
+**RN02 – Login no Sistema:**
 O acesso ao sistema só poderá ser realizado por usuários que possuam cadastro e informem corretamente e-mail e senha.
 
-RN03 – Cadastro de Produto:
+**RN03 – Cadastro de Produto:**
 Para anunciar uma peça de roupa no sistema, o usuário deve cadastrar o produto informando pelo menos nome da peça, descrição, preço, marca e estado da peça.
 
-RN04 – Disponibilidade do Produto:
+**RN04 – Disponibilidade do Produto:**
 Um produto só poderá ser exibido para compra se estiver com o status marcado como “disponível”.
 
-RN05 – Registro de Venda:
+**RN05 – Registro de Venda:**
 Quando uma peça for vendida, o sistema deverá registrar automaticamente a venda e alterar o status do produto para “vendido”.
 
-RN06 – Atualização de Status do Produto:
+**RN06 – Atualização de Status do Produto:**
 Após o registro da venda, o produto não poderá mais ser exibido como disponível para outros usuários.
 
-RN07 – Visualização de Produtos:
+**RN07 – Visualização de Produtos:**
 Todos os usuários poderão visualizar as roupas anunciadas na plataforma.
 
-RN08 – Gerenciamento do Sistema:
+**RN08 – Gerenciamento do Sistema:**
 Administradores terão acesso a funções de gerenciamento, podendo visualizar todos os produtos cadastrados e acompanhar as vendas realizadas no sistema.
 
-RN09 – Integridade das Informações:
+**RN09 – Integridade das Informações:**
 O sistema não permitirá o cadastro de produtos com campos obrigatórios vazios, garantindo que as informações necessárias estejam sempre registradas.
 
 # 5. Requisitos funcionais
 
 Os requisitos funcionais definem as funcionalidades que o sistema ReVeste deverá possuir para atender às necessidades dos usuários da plataforma. Eles descrevem o que o sistema deve fazer para permitir o cadastro de usuários, o anúncio de roupas, o registro de vendas e a visualização das informações dentro do brechó digital.
 
-Entradas
+*Entradas*
 
-R.F. 01 - Cadastro de Usuário:
+**R.F. 01 - Cadastro de Usuário:**
 Permite que novos usuários criem uma conta no sistema para acessar a plataforma e utilizar suas funcionalidades, como anunciar e comprar roupas.
 Dados necessários: nome, e-mail, cpf, telefone (opcional) e senha.
 Usuários: visitantes da plataforma.
 
-R.F. 02 - Login de Usuário:
+**R.F. 02 - Login de Usuário:**
 Permite que usuários cadastrados acessem o sistema por meio de autenticação utilizando seus dados de login.
 Dados necessários: e-mail, senha.
 Usuários: usuários cadastrados e administradores.
 
-R.F. 03 - Cadastro de Produto:
+**R.F. 03 - Cadastro de Produto:**
 Permite que os usuários registrem uma peça de roupa para venda dentro da plataforma.
 Dados necessários: nome do produto, descrição, preço, imagem, marca e status do produto.
 Usuários: usuários cadastrados.
 
-Processos
+*Processos*
 
-R.F. 04 - Registro de Venda:
+**R.F. 04 - Registro de Venda:**
 Permite registrar quando um produto foi vendido dentro da plataforma, atualizando automaticamente o status da peça.
 Dados necessários: produto, data da venda, status do produto.
 Usuários: usuários e administradores.
 
-R.F. 05 - Atualização de Status do Produto:
+**R.F. 05 - Atualização de Status do Produto:**
 Atualiza automaticamente o status do produto após a realização de uma venda, alterando de “disponível” para “vendido”.
 Dados necessários: produto, status do produto.
 Usuários: sistema.
 
-Saídas
+*Saídas*
 
-R.F. 06 - Visualização de Produtos:
+**R.F. 06 - Visualização de Produtos:**
 Permite que os usuários visualizem as roupas disponíveis para compra dentro da plataforma.
 Dados necessários: nome do produto, descrição, preço, imagem, status do produto.
 Usuários: todos os usuários.
 
-R.F. 07 - Visualização de Produtos do Usuário:
+**R.F. 07 - Visualização de Produtos do Usuário:**
 Permite que o usuário visualize as roupas que ele anunciou na plataforma.
 Dados necessários: nome do produto, descrição, preço, status do produto.
 Usuários: usuários cadastrados.
 
-R.F. 08 - Visualização de Vendas:
+**R.F. 08 - Visualização de Vendas:**
 Permite que os administradores acompanhem as vendas realizadas na plataforma.
 Dados necessários: produto vendido, vendedor, data da venda, status do produto.
 Usuários: administradores.
