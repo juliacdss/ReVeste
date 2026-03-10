@@ -65,7 +65,7 @@ Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o dia
 
 As regras de negócio definem como o sistema deve funcionar e quais condições precisam ser seguidas para que as operações aconteçam corretamente. Elas ajudam a organizar os processos da plataforma, garantindo que o cadastro de produtos, as vendas e o controle das peças sejam realizados de forma padronizada e segura dentro do sistema ReVeste.
 
-*4.6 Regras de Negócio do Sistema*
+* Regras de Negócio do Sistema*
 
 RN01 – Cadastro de Usuário:
 Para utilizar as funcionalidades do sistema, o usuário deve realizar um cadastro informando seus dados básicos, como nome, e-mail, senha, telefone e CPF.
@@ -95,151 +95,54 @@ RN09 – Integridade das Informações:
 O sistema não permitirá o cadastro de produtos com campos obrigatórios vazios, garantindo que as informações necessárias estejam sempre registradas.
 
 # 5. Requisitos funcionais
-(*Nessa parte a equipe deve descrever os requisitos funcionais que serão implementados no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
 
-**5.1 O que são requisitos funcionais?**
+Os requisitos funcionais definem as funcionalidades que o sistema ReVeste deverá possuir para atender às necessidades dos usuários da plataforma. Eles descrevem o que o sistema deve fazer para permitir o cadastro de usuários, o anúncio de roupas, o registro de vendas e a visualização das informações dentro do brechó digital.
 
-Um requisito funcional é uma declaração de como um sistema deve se comportar. Define o que o sistema deve fazer para atender às necessidades ou expectativas do usuário. Os requisitos funcionais podem ser pensados ​como recursos que o usuário detecta.
+Entradas
 
-Os requisitos funcionais são compostos de duas partes:
-**função** e **comportamento**.
+R.F. 01 - Cadastro de Usuário:
+Permite que novos usuários criem uma conta no sistema para acessar a plataforma e utilizar suas funcionalidades, como anunciar e comprar roupas.
+Dados necessários: nome, e-mail, cpf, telefone (opcional) e senha.
+Usuários: visitantes da plataforma.
 
-- A **função** é o que o sistema **faz**. Por exemplo: *“calcular imposto sobre vendas”*.
-- O **comportamento** é **como** o sistema faz. Por exemplo: *“O sistema deve calcular o imposto sobre vendas multiplicando o preço de compra pela alíquota do imposto.”*.
+R.F. 02 - Login de Usuário:
+Permite que usuários cadastrados acessem o sistema por meio de autenticação utilizando seus dados de login.
+Dados necessários: e-mail, senha.
+Usuários: usuários cadastrados e administradores.
 
-**5.2 Tipos de requisitos funcionais**
+R.F. 03 - Cadastro de Produto:
+Permite que os usuários registrem uma peça de roupa para venda dentro da plataforma.
+Dados necessários: nome do produto, descrição, preço, imagem, marca e status do produto.
+Usuários: usuários cadastrados.
 
-Os requisitos funcionais podem ser classificados em:
+Processos
 
-- Regulamentos de Negócios
-- Requisitos de Certificação
-- Requisitos de relatório
-- Funções Administrativas
-- Níveis de autorização
-- Rastreamento de auditoria
-- Interfaces Externas
-- Gestão de dados
-- Requisitos Legais e Regulamentares
+R.F. 04 - Registro de Venda:
+Permite registrar quando um produto foi vendido dentro da plataforma, atualizando automaticamente o status da peça.
+Dados necessários: produto, data da venda, status do produto.
+Usuários: usuários e administradores.
 
-**5.3 Diretrizes para a elaboração de requisitos funcionais**
+R.F. 05 - Atualização de Status do Produto:
+Atualiza automaticamente o status do produto após a realização de uma venda, alterando de “disponível” para “vendido”.
+Dados necessários: produto, status do produto.
+Usuários: sistema.
 
-Cada requisito funcional precisa ser:
+Saídas
 
-- **Específico** sobre o que o sistema deve fazer.
-- **Mensurável** para que você possa dizer se o sistema está fazendo isso
-- **Alcançável** dentro do prazo que você definiu
-- **Relevante** para seus objetivos de negócios
-- **Limitado** no tempo para que você possa
-acompanhar o progresso
+R.F. 06 - Visualização de Produtos:
+Permite que os usuários visualizem as roupas disponíveis para compra dentro da plataforma.
+Dados necessários: nome do produto, descrição, preço, imagem, status do produto.
+Usuários: todos os usuários.
 
-**5.4 Estrutura do requisito funcional**
+R.F. 07 - Visualização de Produtos do Usuário:
+Permite que o usuário visualize as roupas que ele anunciou na plataforma.
+Dados necessários: nome do produto, descrição, preço, status do produto.
+Usuários: usuários cadastrados.
 
-Um requisito funcional deve ser estruturado da seguinte forma:
-
-- **Nome do requisito funcional:** descrição do
-requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-**5.4.1 Nome do requisito funcional**
-
-**R.F. 99 - Nome do requisito funcional:** é o nome da função que o software terá. Sugerimos, por padronização, que tenha o prefixo R.F. (requisito funcional)
-seguida da numeração, para melhor identificação do requisito, acrescido do formato *“Substantivo + onde será feita a ação”*.
-Por exemplo:
-- R.F. 01 - Registro de Funcionários
-- R.F. 15 - Gerenciamento de consultas
-- R.F. 04 - Débito em conta corrente
-
-Deixe para definir as numerações ao final, tendo em vista que mudanças podem acontecer e não é prático sempre ficar reajustando os números.
-
-**5.4.2 Descrição do requisito funcional**
-
-**Descrição do requisito:** local para descrever a função deste requisito.
-
-Sempre se preocupe em esclarecer dois pontos: o que o requisito faz e o motivo de sua existência. Isso é especialmente importante se a ação executada nesse requisito não for algo que já acontece naturalmente na empresa.
-Um exemplo é um Registro de funcionários, que talvez não exista hoje mas para o software é necessário para viabilizar uma autenticação de
-usuários. Outro exemplo é algo que faz sentido apenas para um  software, como a própria autenticação.
-
-**5.4.3 Dados necessários**
-
-**Dados necessários:** aqui devem ser colocados os nomes dos dados que serão usados para que esse requisito atenda o que precisa fazer.
-
-Nas **entradas** e **processos**, em geral, são os dados que serão salvos (seja algo digitado pelo usuário ou captado do sistema, como a hora atual).
-
-Já nas **saídas**, são os dados que serão exibidos em tela (sejam eles vindos diretamente do banco, ou criados por um cálculo ou busca na sessão do usuário).
-
-**5.4.4 Usuários**
-
-**Usuários:** aqui devem ser colocados os nomes dos usuários que terão acesso a esse requisito, conforme enumerados na descrição do sistema.
-
-**5.4.5 Exemplo de requisito funcional**
-
-- **R.F. 01 - Autenticação de usuário:** tem como propósito autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo e, caso possa, o direcionando
-para a página principal de seu perfil de acesso.
-  - **Dados necessários:** login, senha, nível de permissão.
-  - **Usuários:** todos os níveis de usuário.
-
-**5.4.6 Organização dos requisitos funcionais**
-
-As funcionalidades devem ser organizadas em: entradas, processos e saídas.
-
-**Entradas:** São as funcionalidades que alimentarão o software com as informações essenciais para seu uso.
-
-**Exemplos de entradas:**
-- “**Registro de usuário**” (para permitir depois seu acesso ao software).
-- “**Registro de paciente**” (que seria útil caso nosso software fosse ppara uma clínica, evitando registrar várias vezes os mesmos dados da pessoa a cada consulta e viabilizando um histórico de seus
-atendimentos).
-
-**Processos:** Em geral, englobam toda ação que executa cálculos, processamentos de tomada de decisão ou transforma dados em novos dados.
-
-**Exemplos de processos:**
-- “**Autenticação de usuário**”, que usará os dados de “**Registro de usuário**” em sua execução.
-- “**Agendamento de consulta**”, que usará dados do “**Registro de paciente**” e talvez do “**Registro de funcionário**” em sua execução.
-
-**Saídas:** São os relatórios, gráficos, impressões, etc., que utilizarem os dados do software para gerar informações pertinentes ao
-negócio, mas sem intenção de alterá-los, apenas permitindo sua visualização e filtragem.
-
-**Exemplos de saídas:**
-- “Relatório de consultas por paciente”.
-- Relatório de vendas”.
-- “Log de usuários autenticados”.
-
-Todos esses podem ser consideradas saídas, pois usam informações de entradas e processos de modo a mostrar informações relevantes ao
-negócio. Lembre-se que, diferentemente das entradas e processos, aqui os dados necessários devem ser os que a tela exibirá.
-
-**5.4.7 Exemplo de organização dos requisitos funcionais**
-
-(_A seguir, um exemplo de organização de requisitos funcionais, com entradas, processos e saídas._)
-
-**Entradas:**
-
-- **R.F. 01 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-- **R.F. 02 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-**Processamento:**
-
-- **R.F. 03 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-- **R.F. 04 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-**Saídas:**
-
-- **R.F. 05 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-- **R.F. 06 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
+R.F. 08 - Visualização de Vendas:
+Permite que os administradores acompanhem as vendas realizadas na plataforma.
+Dados necessários: produto vendido, vendedor, data da venda, status do produto.
+Usuários: administradores.
 
 # 6. Requisitos não funcionais
 
