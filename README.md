@@ -243,23 +243,6 @@ Eles ajudam a garantir que o sistema atenda às necessidades do usuário e seja 
 
 # 7. Diagrama de Caso de Uso
 
-**7.1 Introdução**
-
-O diagrama de caso de uso é uma ferramenta de modelagem que descreve o comportamento de um sistema a partir da perspectiva do usuário. Ele é usado para capturar os requisitos funcionais de um sistema.
-
-- Especificam a visão externa do sistema.
-- Descrevem como o sistema é percebido por seus usuários.
-- Descrevem as interações entre os usuários e o sistema.
-
-
-  |---- Fazer login
-  |---- Gerenciar produtos
-  |---- Visualizar usuários
-  |---- Visualizar vendas
-  |---- Gerar relatório de vendas
-  
-## 7. Diagrama de Caso de Uso – ReVeste
-
 **Estrutura do Diagrama (como ficará)**
 
 ```
